@@ -70,7 +70,7 @@
     "ucfirst": "^1.0.0",
     "url": "^0.11.0",
     "watch": "^1.0.2",
-    "snyk": "^1.192.0"
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@types/chai": "^4.1.3",

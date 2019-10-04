@@ -6,3 +6,14 @@ patch:
   SNYK-JS-LODASH-450202:
     - inquirer > lodash:
         patched: '2019-07-05T03:07:57.383Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - google-auth-library > https-proxy-agent:
+        patched: '2019-10-04T03:12:47.474Z'
+    - googleapis > google-auth-library > https-proxy-agent:
+        patched: '2019-10-04T03:12:47.474Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T03:12:47.474Z'
+    - googleapis > googleapis-common > google-auth-library > https-proxy-agent:
+        patched: '2019-10-04T03:12:47.474Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T03:12:47.474Z'
