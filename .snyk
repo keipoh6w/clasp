@@ -1,19 +1,28 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
-  SNYK-JS-LODASH-450202:
-    - inquirer > lodash:
-        patched: '2019-07-05T03:07:57.383Z'
-  SNYK-JS-HTTPSPROXYAGENT-469131:
-    - google-auth-library > https-proxy-agent:
-        patched: '2019-10-04T03:12:47.474Z'
-    - googleapis > google-auth-library > https-proxy-agent:
-        patched: '2019-10-04T03:12:47.474Z'
-    - snyk > proxy-agent > https-proxy-agent:
-        patched: '2019-10-04T03:12:47.474Z'
-    - googleapis > googleapis-common > google-auth-library > https-proxy-agent:
-        patched: '2019-10-04T03:12:47.474Z'
-    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
-        patched: '2019-10-04T03:12:47.474Z'
+  SNYK-JS-AXIOS-174505:
+    - google-auth-library > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - google-auth-library > gcp-metadata > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - google-auth-library > gtoken > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > google-auth-library > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > googleapis-common > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > google-auth-library > gcp-metadata > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > google-auth-library > gtoken > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > googleapis-common > google-auth-library > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > googleapis-common > google-auth-library > gcp-metadata > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+    - googleapis > googleapis-common > google-auth-library > gtoken > axios:
+        patched: '2019-05-06T03:10:03.291Z'
+
