@@ -28,3 +28,4 @@ patch:
         patched: '2019-07-08T06:37:03.998Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
         patched: '2019-07-08T06:37:03.998Z'
+
